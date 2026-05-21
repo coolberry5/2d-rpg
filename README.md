@@ -1,2 +1,6 @@
 # 2d-rpg
-a 2d rpg in devoplopment
+1. download the project files
+2. go to this link:[
+3. Godot]([url](https://editor.godotengine.org/releases/latest/))
+4. import the game files
+5. press run
