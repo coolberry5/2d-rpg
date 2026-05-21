@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://dvwn6ubcx7uqp"]
+
+[ext_resource type="PackedScene" uid="uid://cxr6by6wvyycy" path="res://player/player.tscn" id="1_rupst"]
+[ext_resource type="PackedScene" uid="uid://pi2t5pcq781i" path="res://tilemaps/ground.tscn" id="2_wt17y"]
+[ext_resource type="PackedScene" uid="uid://57y68yiixki7" path="res://props/plants/tree.tscn" id="3_m8u5f"]
+[ext_resource type="PackedScene" uid="uid://u4idvcarhhua" path="res://enemies/slime/slime.tscn" id="4_is3ju"]
+
+[node name="Playground" type="Node2D" unique_id=1260190106]
+y_sort_enabled = true
+
+[node name="Player" parent="." unique_id=199298368 instance=ExtResource("1_rupst")]
+position = Vector2(203, 237)
+
+[node name="Slime" parent="." unique_id=1747315956 instance=ExtResource("4_is3ju")]
+position = Vector2(89, 122)
+
+[node name="ground" parent="." unique_id=1137447405 instance=ExtResource("2_wt17y")]
+
+[node name="Tree" parent="." unique_id=530446606 instance=ExtResource("3_m8u5f")]
+position = Vector2(33, 55)
+
+[node name="Tree2" parent="." unique_id=922261419 instance=ExtResource("3_m8u5f")]
+position = Vector2(132, 67)
+
+[node name="Tree3" parent="." unique_id=132655428 instance=ExtResource("3_m8u5f")]
+position = Vector2(472, 289)
+
+[node name="Tree4" parent="." unique_id=1645261047 instance=ExtResource("3_m8u5f")]
+position = Vector2(240, 237)
+
+[node name="Tree5" parent="." unique_id=118106087 instance=ExtResource("3_m8u5f")]
+position = Vector2(432, 159)
+
+[node name="Tree6" parent="." unique_id=591781642 instance=ExtResource("3_m8u5f")]
+position = Vector2(224, 336)
